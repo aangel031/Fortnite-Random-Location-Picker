@@ -20,11 +20,15 @@ var locations = [
 //.sort() puts them in order.
 ];
 
-console.log("Total cities listed in the array: " + locations.length) // 18
+console.log(`View the GitHub repo to see all the code and make issues!: https://github.com/AlexHGaming/Fortnite-Random-Place-Generator`);
+
+var ll = locations.length;
+
+console.log("Total cities listed in the array: " + ll) // 18
 
 function lal() {
 var text = "";
-for (var i = 0; i < locations.length; i++) {
+for (var i = 0; i < ll; i++) {
       text += locations.sort()[i] + ", ";
 document.getElementById("op").innerHTML = text;
 }
@@ -32,7 +36,7 @@ console.log("User requested to show the total city list.")
 }
 
 function main() {
-    var randomise = Math.floor((Math.random() * locations.length) + 1);
+    var randomise = Math.floor((Math.random() * ll) + 1);
 console.log(randomise)
 if (randomise == 1) randomise="Junk Junction";
 if (randomise == 2) randomise="Haunted Hills";
@@ -52,6 +56,6 @@ if (randomise == 15) randomise="Wailing Woods";
 if (randomise == 16) randomise="Lonely Lodge";
 if (randomise == 17) randomise="Retail Row";
 if (randomise == 18) randomise="Moisty Mire";
-if (randomise <= 0 || randomise >= 19) randomise == "[UNDETECTED] - Report this to <a href = 'https://github.com/AlexHGaming/'>the GitHub repo and make an issue screenshotting your console.</a>"
+if (randomise <= 0 || randomise >= 19) randomise == "[UNDETECTED] - Report this to <a href = 'https://github.com/AlexHGaming/Fortnite-Random-Place-Generator'>the GitHub repo and make an issue screenshotting your console.</a>"
 document.getElementById("mout").innerHTML = `<code><center><h1>${randomise}</code>`
 };
