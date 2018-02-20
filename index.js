@@ -52,6 +52,6 @@ if (randomise == 15) randomise="Wailing Woods";
 if (randomise == 16) randomise="Lonely Lodge";
 if (randomise == 17) randomise="Retail Row";
 if (randomise == 18) randomise="Moisty Mire";
-
-    document.getElementById("mout").innerHTML = `<code><center><h1>${randomise}</code>`
-}
+if (randomise <= 0 || randomise >= 19) randomise == "[UNDETECTED] - Report this to <a href = 'https://github.com/AlexHGaming/'>the GitHub repo and make an issue screenshotting your console.</a>"
+document.getElementById("mout").innerHTML = `<code><center><h1>${randomise}</code>`
+};
