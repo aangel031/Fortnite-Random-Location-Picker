@@ -26,12 +26,14 @@ var ll = locations.length;
 
 console.log("Total cities listed in the array: " + ll) // 18
 
-function lal() {
-for (var i = 0; i < ll; i++) {
-document.getElementById("op").innerHTML = locations.sort()[i] + ", ";
-}
-console.log("User requested to show the total city list.")
-}
+ function lal() {
+ var text = "";
+  for (var i = 0; i < ll; i++) {
+text += locations.sort()[i] + ", ";
+ -document.getElementById("op").innerHTML = text;
+  }
+  console.log("User requested to show the total city list.")
+  }
 
 function main() {
     var randomise = Math.floor((Math.random() * ll) + 1);
