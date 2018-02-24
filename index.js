@@ -30,7 +30,7 @@ console.log("Total cities listed in the array: " + ll) // 18
  var text = "";
   for (var i = 0; i < ll; i++) {
 text += locations.sort()[i] + ", ";
- -document.getElementById("op").innerHTML = text;
+ document.getElementById("op").innerHTML = text;
   }
   console.log("User requested to show the total city list.")
   }
