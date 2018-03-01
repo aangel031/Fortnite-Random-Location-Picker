@@ -17,7 +17,7 @@ var locations = [
 "Lonely Lodge",
 "Retail Row",
 "Moisty Mire",
- "Lucky Landing
+ "Lucky Landing"
 //.sort() puts them in order.
 ];
 
@@ -57,7 +57,7 @@ if (randomise == 15) randomise="Wailing Woods";
 if (randomise == 16) randomise="Lonely Lodge";
 if (randomise == 17) randomise="Retail Row";
 if (randomise == 18) randomise="Moisty Mire";
- if (randomise == 18) randomise="Lucky Landing";
-if (randomise <= 0 || randomise >= 19) randomise == "[UNDETECTED] - Report this to <a href = 'https://github.com/AlexHGaming/Fortnite-Random-Place-Generator'>the GitHub repo and make an issue screenshotting your console.</a>"
+ if (randomise == 19) randomise="Lucky Landing";
+if (randomise <= 0 || randomise >= 20) randomise == "[UNDETECTED] - Report this to <a href = 'https://github.com/AlexHGaming/Fortnite-Random-Place-Generator'>the GitHub repo and make an issue screenshotting your console.</a>"
 document.getElementById("mout").innerHTML = `<code><center><h1>${randomise}</code>`
 };
