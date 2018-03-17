@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>Fortnite Random Location Generator</title>
+    
+    <!--Meta Tags-->
+    <meta name="description" content="Pulls a random location from the map (only cities for now)">
+      <meta name="author" content="AlexHGaming">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name = "keywords" content = "Fortnite, Random Location, Fortnite Random Location Generator, fortnite random location generator, Search Results
 Fortnite Location Picker" />
+<meta charset="utf-8">
+<!-- End of Meta Tags -->  
+
 <link rel="icon" href="https://i.imgur.com/IMjozOI.jpg">
   </head>
 
   <body>
-
-      <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+<!-- Page Header centered -->
       <center><h1 style="font-size:60px">Random Location Generator</h1></center>
       <center><h4 id = "vers"></h4></center>
-
+<!-- End of Page Header -->
+  
+<!-- Local Imports-->    
   <script src = "./main.js"></script>
   <script src = "./allcities.js"></script>
   <script src = "./version.js"></script>
+<!-- End of Local Imports -->
+    
+<!-- External Imports -->
+<link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <!-- End of External Imports -->
+    
 
-  <noscript>Bro, your JavaScript is disabled. I highly recommend you enabling it for the website to work.</noscript>
-<br><br>
+  <noscript>Bro, your JavaScript is disabled. I highly recommend you enabling it for the website to work.</noscript><br><br>
 
 <p id = "demo"></p>
           <div class = "container">
-
+<!-- Main Buttons & Content -->
 <center><button type = "button" onclick = "main()" class = "btn btn-primary btn-lg">Generate a Random Location</button></center><br><br>
 <h1 id = "mout" style="color:dodgerblue; font-size:60px"></h1><br>
 <button type = "button" onclick = "allcities()" class = "btn btn-warning btn-lg">View all Locations</button><br>
-<p id = "op" style="font-size:20px; color:lightblue"></p><br>
-<br>
+<p id = "op" style="font-size:20px; color:lightblue"></p><br><br>
+<!-- End of Main Buttons & Content -->            
 
+<!-- Miscellaneous -->
 <hr style="background-color:red"><br>
 <h2>Miscellaneous</h2><br><br>
 <h5 id = "custom">Link Shortener: https://goo.gl/P9Md6G (<a href = "https://goo.gl/P9Md6G">or this</a>)</h5><br>
 <hr style="background-color:red"><br>
 <h3><a href = "https://github.com/AlexHGaming/Fortnite-Random-Place-Generator/">View code on GitHub</a> - Made with &hearts;</h3>
           </hr>
+<!-- End of Miscellaneous -->
           </div>
   </body>
+<!-- End of Document -->
 </html>
