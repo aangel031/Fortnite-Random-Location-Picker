@@ -1,31 +1,4 @@
-
-var locations = [
-    "Junk Junction",
-    "Haunted Hills",
-    "Anarchy Acres",
-    "Pleasant Park",
-    "Snobby Shores",
-    "Greasy Grove",
-    "Tilted Towers",
-    "Shifty Shafts",
-    "Flush Factory",
-    "Loot Lake",
-    "Tomato Town",
-    "Dusty Depot",
-    "Salty Springs",
-    "Fatal Fields",
-    "Wailing Woods",
-    "Lonely Lodge",
-    "Retail Row",
-    "Moisty Mire",
-    "Lucky Landing"
-    //.sort() puts them in order.
-    ];
-    
-    var ll = locations.length;
-    console.log("Total cities listed in the array: " + ll) // 19
-    
-    function main() {
+        function main() {
         var randomise = Math.floor((Math.random() * ll) + 1);
     console.log(randomise)
     
