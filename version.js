@@ -1,4 +1,4 @@
-var version = "1.0.5";
+var version = "1.1.0";
 
 document.getElementById("vers").innerHTML = `Version ${version}`;
 
