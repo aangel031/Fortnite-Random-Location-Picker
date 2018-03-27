@@ -1,4 +1,5 @@
-var locations = [
+function allcities() {
+    var locations = [
     "Junk Junction",
     "Haunted Hills",
     "Anarchy Acres",
@@ -23,9 +24,7 @@ var lastlocation = "Wailing Woods"
     
     var ll = locations.length;
     console.log("Total cities listed in the array: " + ll)
-
-
-function allcities() {
+    
     var text = "";
     for (var i = 0; i < ll; i++) {
           text += locations.sort()[i] + ", ";
