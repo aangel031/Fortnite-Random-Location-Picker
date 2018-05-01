@@ -21,6 +21,7 @@
     if (randomise == 17) randomise="Retail Row";
     if (randomise == 18) randomise="Moisty Mire";
     if (randomise == 19) randomise="Lucky Landing";
+    if (randomise == 19) randomise="Risky Reels";
     
     else randomise == "[UNDETECTED] - Report this to <a href = 'https://github.com/AlexHGaming/'>the GitHub repo</a> and make an issue screenshotting your console."
     
