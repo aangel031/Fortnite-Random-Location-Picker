@@ -13,7 +13,7 @@
     if (randomise == 9) randomise="Flush Factory";
     if (randomise == 10) randomise="Loot Lake";
     if (randomise == 11) randomise="Tomato Town";
-    if (randomise == 12) randomise="Dusty Depot";
+    if (randomise == 12) randomise="Dusty Divot";
     if (randomise == 13) randomise="Salty Springs";
     if (randomise == 14) randomise="Fatal Fields";
     if (randomise == 15) randomise="Wailing Woods";
