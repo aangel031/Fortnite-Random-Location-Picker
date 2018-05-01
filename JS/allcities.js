@@ -16,7 +16,8 @@
     "Lonely Lodge",
     "Retail Row",
     "Moisty Mire",
-    "Lucky Landing"
+    "Lucky Landing",
+    "Risky Reels"
     //.sort() puts them in order.
     ];
 var lastlocation = "Wailing Woods";
