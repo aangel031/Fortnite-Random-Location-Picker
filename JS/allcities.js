@@ -10,7 +10,7 @@
     "Flush Factory",
     "Loot Lake",
     "Tomato Town",
-    "Dusty Depot",
+    "Dusty Divot",
     "Salty Springs",
     "Fatal Fields",
     "Lonely Lodge",
