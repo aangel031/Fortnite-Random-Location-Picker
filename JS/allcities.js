@@ -18,8 +18,8 @@ var locations = [
     "Moisty Mire",
     "Lucky Landing",
     "Risky Reels",
-        "Northern Stadium"
-    ].sort();
+    "Northern Stadium"
+    ];
 
 var lastlocation = "Wailing Woods";
 
