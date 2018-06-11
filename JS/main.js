@@ -25,5 +25,3 @@
 
         document.getElementById("mout").innerHTML = `<center>${randomise}</center>`
     }
-
-document.getElementById("loading").innerHTML = "";
