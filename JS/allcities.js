@@ -1,4 +1,4 @@
-    var locations = [
+var locations = [
     "Junk Junction",
     "Haunted Hills",
     "Anarchy Acres",
@@ -17,10 +17,12 @@
     "Retail Row",
     "Moisty Mire",
     "Lucky Landing",
-    "Risky Reels"
-    //.sort() puts them in order.
-    ];
+    "Risky Reels",
+        "Northern Stadium"
+    ].sort();
+
 var lastlocation = "Wailing Woods";
+
     var ll = locations.length;
     console.log("Total cities listed in the array: " + ll)
 
