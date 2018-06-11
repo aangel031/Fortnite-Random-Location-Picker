@@ -13,7 +13,7 @@
     if (randomise == 9) randomise="Flush Factory";
     if (randomise == 10) randomise="Loot Lake";
     if (randomise == 11) randomise="Tomato Town";
-    if (randomise == 12) randomise="Dusty Divot";
+    if (randomise == 12) randomise="Dusty Depot";
     if (randomise == 13) randomise="Salty Springs";
     if (randomise == 14) randomise="Fatal Fields";
     if (randomise == 15) randomise="Wailing Woods";
@@ -21,10 +21,9 @@
     if (randomise == 17) randomise="Retail Row";
     if (randomise == 18) randomise="Moisty Mire";
     if (randomise == 19) randomise="Lucky Landing";
-    if (randomise == 19) randomise="Risky Reels";
-    
-    else randomise == "[UNDETECTED] - Report this to <a href = 'https://github.com/AlexHGaming/'>the GitHub repo</a> and make an issue screenshotting your console."
-    
+    if (randomise == 20) randomise="Northern Stadium";
+
         document.getElementById("mout").innerHTML = `<center>${randomise}</center>`
     }
 
+document.getElementById("loading").innerHTML = "";
