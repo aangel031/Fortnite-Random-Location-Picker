@@ -1,40 +1,27 @@
-        function main() {
-        var randomise = Math.floor((Math.random() * ll) + 1);
-    console.log("Named Location: " + randomise)
-    
-    if (randomise == 1) randomise="Junk Junction";
-    if (randomise == 2) randomise="Haunted Hills";
-    if (randomise == 3) randomise="Anarchy Acres";
-    if (randomise == 4) randomise="Pleasant Park";
-    if (randomise == 5) randomise="Snobby Shores";
-    if (randomise == 6) randomise="Greasy Grove";
-    if (randomise == 7) randomise="Tilted Towers";
-    if (randomise == 8) randomise="Shifty Shafts";
-    if (randomise == 9) randomise="Flush Factory";
-    if (randomise == 10) randomise="Loot Lake";
-    if (randomise == 11) randomise="Tomato Town";
-    if (randomise == 12) randomise="Dusty Depot";
-    if (randomise == 13) randomise="Salty Springs";
-    if (randomise == 14) randomise="Fatal Fields";
-    if (randomise == 15) randomise="Wailing Woods";
-    if (randomise == 16) randomise="Lonely Lodge";
-    if (randomise == 17) randomise="Retail Row";
-    if (randomise == 18) randomise="Moisty Mire";
-    if (randomise == 19) randomise="Lucky Landing";
+function main() {
+  var randomise = Math.floor((Math.random() * ll) + 1);
+  console.log("Main:" + randomise)
 
-        document.getElementById("mout").innerHTML = `<center>${randomise}</center>`
-    }
+  if (randomise == 1) randomise = "Junk Junction";
+  if (randomise == 2) randomise = "Haunted Hills";
+  if (randomise == 3) randomise = "Anarchy Acres";
+  if (randomise == 4) randomise = "Pleasant Park";
+  if (randomise == 5) randomise = "Snobby Shores";
+  if (randomise == 6) randomise = "Greasy Grove";
+  if (randomise == 7) randomise = "Tilted Towers";
+  if (randomise == 8) randomise = "Shifty Shafts";
+  if (randomise == 9) randomise = "Flush Factory";
+  if (randomise == 10) randomise = "Loot Lake";
+  if (randomise == 11) randomise = "Tomato Town";
+  if (randomise == 12) randomise = "Dusty Depot";
+  if (randomise == 13) randomise = "Salty Springs";
+  if (randomise == 14) randomise = "Fatal Fields";
+  if (randomise == 15) randomise = "Wailing Woods";
+  if (randomise == 16) randomise = "Lonely Lodge";
+  if (randomise == 17) randomise = "Retail Row";
+  if (randomise == 18) randomise = "Moisty Mire";
+  if (randomise == 19) randomise = "Lucky Landing";
+  if (randomise == 20) randomise = "Northern Stadium";
 
-    function unnamedmain() {
-
-        var randomise = Math.floor((Math.random() * unl) + 1);
-        console.log("Unnamed Location: " + randomise)
-        
-        if (randomise == 1) randomise="Factories near 'Flush Factory'";
-        if (randomise == 2) randomise="Stadium near 'Junk Junction'";
-        if (randomise == 3) randomise="Containers on the left of 'Lonely Lodge'";
-        if (randomise == 4) randomise="Prison near 'Moisty Mire'";
-        if (randomise == 5) randomise="Football / Soccer Pitch";
-
-        document.getElementById("mout").innerHTML = `<center>${randomise}</center>`
-    }
+  document.getElementById("mout").innerHTML = `<center>${randomise}</center>`
+}

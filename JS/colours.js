@@ -1,4 +1,4 @@
-function colours() {
+function main2() {
 
 
 var a = document.getElementById("colour1").value;

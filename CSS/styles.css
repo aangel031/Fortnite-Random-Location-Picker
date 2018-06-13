@@ -1,10 +1,10 @@
-
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .hi {
-background-color:blue;
-font-size: 50px;
-color: black
+  font-family: 'Righteous';
+  background-color: #3498db;
+  font-size: 50px;
+  color: black
 }
