@@ -1,6 +1,6 @@
         function main() {
         var randomise = Math.floor((Math.random() * ll) + 1);
-    console.log("Main:" + randomise)
+    console.log("Named Location: " + randomise)
     
     if (randomise == 1) randomise="Junk Junction";
     if (randomise == 2) randomise="Haunted Hills";
@@ -21,7 +21,20 @@
     if (randomise == 17) randomise="Retail Row";
     if (randomise == 18) randomise="Moisty Mire";
     if (randomise == 19) randomise="Lucky Landing";
-    if (randomise == 20) randomise="Northern Stadium";
+
+        document.getElementById("mout").innerHTML = `<center>${randomise}</center>`
+    }
+
+    function unnamedmain() {
+
+        var randomise = Math.floor((Math.random() * unl) + 1);
+        console.log("Unnamed Location: " + randomise)
+        
+        if (randomise == 1) randomise="Factories near 'Flush Factory'";
+        if (randomise == 2) randomise="Stadium near 'Junk Junction'";
+        if (randomise == 3) randomise="Containers on the left of 'Lonely Lodge'";
+        if (randomise == 4) randomise="Prison near 'Moisty Mire'";
+        if (randomise == 5) randomise="Football / Soccer Pitch";
 
         document.getElementById("mout").innerHTML = `<center>${randomise}</center>`
     }
