@@ -33,7 +33,7 @@ var lastlocation = "Wailing Woods";
 
         var last = "Prison near 'Moisty Mire'";
 
-    var unl = unnamedlocations.length + 1;
+    var unl = unnamedlocations.length;
     console.log("Total unnamed locations listed: " + (unl + 1));
 
 function allLocations() {
@@ -43,16 +43,16 @@ function allLocations() {
           text += locations.sort()[i] + ", ";
     document.getElementById("op").innerHTML = `<br>${text} ${lastlocation}.<br><br><font color = '#FFFFFF'>${(ll + 1)} cities alltogether.</font>`;
     }
-    console.log("User requested to show the total city list.")
+    console.log("User requested to show the total named cities list.")
     }
 
-    function unnamedlocations() {
+    function unnamed() {
             
             var text = "";
             for (var i = 0; i < unl; i++) {
                   text += unnamedlocations.sort()[i] + ", ";
-            document.getElementById("op").innerHTML = `<br>${text} ${lastlocation}.<br><br>${(unl + 1)} cities alltogether.</font>`;
+            document.getElementById("op").innerHTML = `<br>${text} ${last}.<br><br>${(unl + 1)} cities alltogether.</font>`;
             }
-            console.log("User requested to show the total city list.")
+            console.log("User requested to show the total unnamed list.")
             }
     
