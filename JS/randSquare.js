@@ -33,6 +33,7 @@ function generateRandomBlock() {
   $('.mapCircle .locationName').css("display", "none");
   $('.mapCircle circle').css("display", "none");
   $('.mapCircle rect').css("display", "block");
+  $('.mapCircle').css("opacity", "1");
 
   let xAxis = horizontal[randomNum1];
   let yAxis = randomNum2;
